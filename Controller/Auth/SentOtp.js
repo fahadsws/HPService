@@ -1,7 +1,7 @@
 const twilio = require('twilio');
 const pool = require('../../DB/Database');
 const accountSid = 'AC9001be137fa51594c22d6dc60216e0b5';
-const authToken = '15d87416e6131983dd639f891a82b5e6';
+const authToken = '9d7058eb595bedcf93f831e1d0ef3cd5';
 const client = new twilio(accountSid, authToken);
 
 async function sendSms(req, res) {
